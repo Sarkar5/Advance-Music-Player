@@ -1,0 +1,44 @@
+let songs=[
+    {
+    "Name" :"Oviman",
+    "Singer" :"Tanveer Evan",
+    "Thumbnail" :"DCIM/Screenshots/IMG_20210615_231250.jpg",
+    "Source" :"Download/Oviman - ( Lyrics )  _ Tanveer Evan.mp3"
+    },
+    {
+    "Name" :"Chere Jeyona",
+    "Singer" :"Tanveer Evan",
+    "Thumbnail" :"DCIM/.thumbnails/1625060840264.jpg",
+    "Source" :"Download/Chere Jeyona (Oviman)Extended version.mp3"
+    },
+    {
+    "Name" :"Avijog",
+    "Singer" :"Tanveer Evan",
+    "Thumbnail" :"DCIM/.thumbnails/1625060840905.jpg",
+    "Source" :"Download/Avijog_Tanveer Evan Mehazabien Jovan Piran.mp3"
+    },
+    {
+    "Name" :"Bolte Bolte Cholte Cholte",
+    "Singer" :"Imran Mahmudul",
+    "Thumbnail" :"DCIM/.thumbnails/1625381929655.jpg",
+    "Source" :"Download/Bolte Bolte Cholte Cholte_Imran mahmudulTanjin Tisha.mp3"
+    },
+    {
+    "Name" :"Nesha",
+    "Singer" :"Arman Alif",
+    "Thumbnail" :"Pictures/facebook/Roman Reigns.jpg",
+    "Source" :"Download/Nesha  _ Arman Alif _ Chondrobindu _ Foisalur Aakash.mp3"
+    },
+    {
+    "Name" :"Dakchi Pichu Tomay Barbar",
+    "Singer" :"Unknown",
+    "Thumbnail" :"DCIM/.thumbnails/1624904851073.jpg",
+    "Source" :"Download/Dakchi Pichu Tomay Barbar.mp3"
+    },
+    {
+    "Name" :"Tomay neye golpo",
+    "Singer" :"Unknown",
+    "Thumbnail" :"DCIM/.thumbnails/1624904851073.jpg",
+    "Source" :"Download/Tomay neye golpo Lyrical Video _ Lota Audio Natok Song.mp3"
+    }
+]
