@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Music Player</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="file:/sdcard/">
+<link rel="stylesheet" href="Icons/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+<link rel="stylesheet" type="text/css" href="CSS/Music Player.css">
+</head>
+<body>
+<audio id="music"></audio>
+<div class="center_div">
+<h1>~Music~</h1>
+</div>
+<div id="main">
+<br>
+<div id="title">Song Title</div>
+<div id="artist">Song Artist</div>
+<br>
+<center><img id="cover" src="Download/Iron_man.png"></center>
+<br><br>
+<div id="show_time">
+<div id="cur_time">00:00</div>
+<div id="dur">00:00</div>
+</div>
+<div id="progress">
+<div id="progress_bar"></div>
+</div>
+<div id="btns">
+<div><i class=" fas fa-fast-backward" onclick="prev()"></i></div>
+<div style="font-size:40px"><i class=" fas fa-play-circle" id="control"></i></div>
+<div><i class=" fas fa-fast-forward" onclick="next()"></i></div>
+</div>
+</div>
+<script type="text/javascript" src="JSON/Music Player.json"></script>
+<script type="text/javascript" src="JS/Music Player.js"></script>
+</body>
+</html>
