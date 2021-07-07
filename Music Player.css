@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::selection{
+    background: black;
+    color: white;
+}
+#main{
+    width: 90vw;
+    height: 75vh;
+    background: white;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0,0,2);
+    margin: 5px auto;
+    border-radius: 5px;
+}
+#title,#artist{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+#artist{
+    font-size: 15px;
+    color: grey;
+}
+#cover{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   margin-top: 20px;
+}
+#show_time{
+  width: 85%;
+  margin-top: 0px;
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+#progress{
+   width: 85%;
+   height: 4px;
+   background: silver;
+   margin: auto;
+   margin-top: 5px;
+}
+#progress_bar{
+   width: 0%;
+   height: 100%;
+   background: black;
+}
+#btns{
+   font-size: 30px;
+   width: 55%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 30px;
+}
+.cover{
+   animation: rot 5s linear infinite;
+}
+@keyframes rot{
+   from{
+   transform: rotate(0deg);
+   }
+   to{
+   transform: rotate(360deg);
+   }
+}
+.center_div{
+    width: 100vw;
+    height: 10vh;
+    background-color: #2f3542;
+    display: grid;
+    place-items: center;
+}
+.center_div > h1{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+.center_div > h1::before{
+    content: "~music~";
+    width: 100%;
+    color: #2ed573;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 0.4rem solid #2ed573;
+    animation: slide 3s linear infinite;
+    overflow: hidden;
+}
+@keyframes slide{
+    0%{
+       width: 0%;
+    }
+    50%{
+       width: 100%;
+    }
+    100%{
+       width: 0%
+    }
+}
